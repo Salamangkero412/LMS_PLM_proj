@@ -11,8 +11,7 @@ This is an example project to illustrate an implementation of Leave Management S
 First, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/sibtc/django-multiple-user-types-example.git
-```
+git clone https://github.com/tkhan11/Leave-Management-System-Django-app.git```
 
 Install the requirements:
 
