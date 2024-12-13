@@ -64,6 +64,10 @@ class StdLeaveAppForm(forms.ModelForm):
         model = StudentLeaveApp
 
         fields = ('content', 'to_teacher')
+        labels = {
+            'to_teacher': 'Send to which manager',
+            'content': 'Please state your reason for your absence',
+        }
 
         widgets = {
 
@@ -75,6 +79,10 @@ class TeachLeaveAppForm(forms.ModelForm):
     class Meta:
         model = TeachLeaveApp
         fields = ('content', 'to_admin',)
+        labels = {
+            'to_admin': 'Send to which HR',
+            'content': 'Please state your reason for your absence',
+        }
 
         widgets = {
             'content': forms.TextInput

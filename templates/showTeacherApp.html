@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<p style="margin-top: 10px;"> Welcome Admin <strong>{{user.username}}</strong> </p>
+<p style="margin-top: 10px;"> Welcome HR <strong>{{user.username}}</strong> </p>
 
 
 <div class="row" style="margin-top:30px;margin-bottom:50px;">
@@ -15,7 +15,7 @@
 
             {%  csrf_token  %}
 
-            <center style="margin-left:-120px;margin-top:70px "><strong>{{ s.content }} by teacher {{s.user}}.</strong><strong style="margin-left:60px;">Your Response : </strong> This application is {{ s.status }}</center>
+            <center style="margin-left:-120px;margin-top:70px "><strong>{{ s.content }} by manager {{s.user}}.</strong><strong style="margin-left:60px;">Your Response : </strong> This application is {{ s.status }}ed</center>
 
             <div class="row">
         
